@@ -1,0 +1,5 @@
+com\pharmez\service\ProductService.class
+com\pharmez\repository\ProductRepository.class
+com\pharmez\model\Product.class
+com\pharmez\PharmezApplication.class
+com\pharmez\controller\ProductController.class

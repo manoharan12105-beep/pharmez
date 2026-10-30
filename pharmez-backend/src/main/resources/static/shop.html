@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pharmez Navbar</title>
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+  <div>
+  <div class="envato-bar">
+  <div class="envato-logo">
+    <a href="https://themeforest.net/item/pharmez-online-pharmacy-html-template/59980262">Envato Market</a>
+  </div>
+  <div class="buy-button">  
+    <a href="#">Buy now</a>
+  </div>
+</div>
+
+
+  <header class="navbar">
+    <a href="#" class="logo">
+      <img src="img/logo.png" alt="Pharmez Logo">
+      
+    </a>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="home.html" >Home</a></li>
+        <li><a href="about.html" >About</a></li>
+        <li><a href="shop.html"class="active">Shop</a></li>
+       <li class="nav-item">
+  <a href="#"  class="active">Pages ▼</a>
+  <div class="dropdown-menu">
+    <a class="dropdown-item1" href="about.html">About</a>
+    <a class="dropdown-item1" href="contact.html">Contact</a>
+    <a class="dropdown-item1" href="service.html">Services</a>
+    <a class="dropdown-item1" href="faq.html">Faq's</a>
+    <a class="dropdown-item1" href="team.html">Team</a>
+    <a class="dropdown-item1" href="404.html">404</a>
+    <a class="dropdown-item1" href="comingsoon.html">Coming Soon</a>
+    <a class="dropdown-item1" href="testimonial.html">Testimonial</a>
+    <a class="dropdown-item1" href="privacy.html">Privacy Policy</a>
+    <a class="dropdown-item1" href="shop.html">Shop</a>
+    <a class="dropdown-item1" href="shoppingcart.html">Cart</a>
+    <a class="dropdown-item1" href="checkout.html">Checkout</a>
+    <a class="dropdown-item1" href="#">Single Product</a>
+    <a class="dropdown-item1" href="#">Thank You</a>
+  </div>
+</li>
+        <li><a href="team.html">Team</a></li>
+        <li class="nav-item"><a href="#">Blog ▼</a>
+        <div class="dropdown-menu">
+    <a class="dropdown-item1" href="blog.html">Blog</a>
+    <a class="dropdown-item1" href="load.html">Load More</a>
+    <a class="dropdown-item1" href="singleblog.html">Single Blog</a>
+    <a class="dropdown-item1" href="onecolumn.html">One Column</a>
+    <a class="dropdown-item1" href="twocolumn.html">Two Column</a>
+    <a class="dropdown-item1" href="threecolumn.html">Three Column</a>
+    <a class="dropdown-item1" href="fourcolumn.html">Four Column</a>
+    <a class="dropdown-item1" href="sixcolumn.html">Six Column</a>
+    
+  </div>
+</li>
+      </ul>
+    </nav>
+
+    <div class="actions">
+      <img src="img/header-search.png" alt="search" class="icon">
+
+      <div class="cart">
+        <img src="img/header-cart.png" alt="cart" class="icon">
+        <span class="badge">0</span>
+      </div>
+
+      <img src="img/header-admin.png" alt="user" class="icon">
+
+
+      <button class="contact-btn">Contact Us</button>
+
+      <div class="lang-selector">
+
+  <img src="img/header-flag1.png" alt="flag">
+  <span>EN ▼</span>
+
+ 
+  <div class="dropdown-menu">
+    <a class="dropdown-item1" href="#">
+      <img src="img/header-flag1.png" alt="flag" > EN
+    </a>
+    <a class="dropdown-item1" href="#">
+      <img src="img/header-flag2.png" alt="flag"> USA
+    </a>
+  </div>
+</div>
+  </header>
+  
+
+  <section class="banner">
+    <div class="ban3">
+    <h1 class="title1">Shop</h1> 
+      <p class="pt">ur one-stop shop for prescription and OTC medicines — fast, safe, and reliable delivery to your door.
+
+</p>
+      <div class="ban1">
+        <p class="ban1">Home • Shop</p></div>
+        </div>
+  </section>
+
+  <section>
+    <div class="shopsec">
+    <div class="wrap">
+      <div class="left">
+
+        <span class="srch">
+            <input type="text" id="searchInput" placeholder="Search" onkeypress="if(event.key === 'Enter') applyFilters()">
+            <i class="fa fa-search" onclick="applyFilters()" style="cursor: pointer;"></i>
+        </span>
+        <h3 class="ttl">Categories :</h3>
+
+        <span class="cat">
+            <label><input type="radio" name="c" value="" onchange="applyFilters()" checked> All Categories</label>
+            <label><input type="radio" name="c" value="Vitamin" onchange="applyFilters()"> Vitamin & Supplements</label>
+            <label><input type="radio" name="c" value="Herbal" onchange="applyFilters()"> Herbal</label>
+            <label><input type="radio" name="c" value="Cream" onchange="applyFilters()"> Skincare & Creams</label>
+            <label><input type="radio" name="c" value="Syrup" onchange="applyFilters()"> Syrups</label>
+            <label><input type="radio" name="c" value="Tablet" onchange="applyFilters()"> Tablets</label>
+            <label><input type="radio" name="c" value="Supplement" onchange="applyFilters()"> Supplements</label>
+        </span>
+          <hr class="line">
+            <h3 class="ttl">Size :</h3>
+
+        <Span class="size">
+            <span>100 ml</span>
+            <span>50 ml</span>
+            <span>200 ml</span>
+            <span>150 ml</span>
+            <span>30 ml</span>
+            <span>300 mg</span>
+            <span>500 mg</span>
+            <span>90 mg</span>
+            <span>400 mg</span>
+        </Span>
+        <hr class="line">
+        <h3 class="ttl">Filter By Price</h3>
+        <input type="range" class="rng">
+        <p class="range">Range: <span>5$ - 50$</span></p>
+      
+      </div>
+      </div>
+
+      <div>
+      <span class="top">
+        <span class="top-l">
+                <span class="view">
+                    <span class="vact"><img src="img/shop-gridicon.png" height="20"> </span>
+                  <span class="v1act"><img src="img/shop-listicon.png" height="20" > </span>
+                </span>
+                <span class="re2" id="shopResultCount">Loading products…</span>
+                <span class="sort">
+                <select id="shopSort" onchange="sortShopProducts()">
+                    <option value="default">Default Sorting</option>
+                    <option value="price-asc">Price: Low to High</option>
+                    <option value="price-desc">Price: High to Low</option>
+                    <option value="rating">Top Rated</option>
+                </select>
+            </span>
+            </span>
+      </span>
+
+      <!-- Dynamic product grid — populated by JS -->
+      <div id="shopProductGrid" style="display:flex;flex-wrap:wrap;gap:16px;padding:16px 0;">
+        <div style="width:100%;text-align:center;padding:40px;color:#888;">
+          <div style="width:32px;height:32px;border:3px solid #eee;border-top-color:#00c896;border-radius:50%;animation:spin 0.8s linear infinite;margin:0 auto 12px;"></div>
+          <p>Loading products from server…</p>
+        </div>
+      </div>
+</div>
+</div>
+</div>
+</section>
+
+<style>
+@keyframes spin { to { transform: rotate(360deg); } }
+</style>
+
+<script src="cart.js"></script>
+<script>
+(function() {
+  const API = window.location.origin.startsWith('http') ? '/api/products' : 'http://localhost:8080/api/products';
+  let shopProducts = [];
+
+  window.applyFilters = async function() {
+    const searchVal = document.getElementById('searchInput').value.trim();
+    const checkedRadio = document.querySelector('input[name="c"]:checked');
+    const categoryVal = checkedRadio ? checkedRadio.value : "";
+    
+    let url = API;
+    const params = new URLSearchParams();
+    if (searchVal) params.append('search', searchVal);
+    if (categoryVal) params.append('category', categoryVal);
+    
+    if (params.toString()) {
+      url += '?' + params.toString();
+    }
+    
+    document.getElementById('shopProductGrid').innerHTML = '<div style="width:100%;text-align:center;padding:40px;color:#888;"><p>Loading products...</p></div>';
+    await loadShopProducts(url);
+  };
+
+  async function loadShopProducts(fetchUrl = API) {
+    try {
+      const res = await fetch(fetchUrl);
+      if (!res.ok) throw new Error();
+      shopProducts = await res.json();
+      
+      // Update sort dropdown back to default since we re-fetched
+      document.getElementById('shopSort').value = 'default';
+      renderShopProducts(shopProducts);
+    } catch (e) {
+      document.getElementById('shopProductGrid').innerHTML = `
+        <div style="width:100%;padding:32px;text-align:center;color:#888;">
+          <p>⚠️ Could not load products. Please make sure the backend is running at <strong>localhost:8080</strong>.</p>
+          <p style="margin-top:8px;font-size:13px;">Showing static products below.</p>
+        </div>
+        ${staticFallbackCards()}`;
+      document.getElementById('shopResultCount').textContent = 'Backend offline — showing static products';
+    }
+  }
+
+  function renderShopProducts(products) {
+    const grid = document.getElementById('shopProductGrid');
+    if (!products.length) {
+      grid.innerHTML = '<div style="width:100%;text-align:center;padding:40px;color:#888;">No products found.</div>';
+      document.getElementById('shopResultCount').textContent = '0 results';
+      return;
+    }
+    grid.innerHTML = products.map(p => `
+      <div class="best1" style="min-width:160px;">
+        <span class="heart11"><span class="heart12">&#9825;</span></span>
+        <span class="imgh">
+          <img src="${p.imageUrl || 'img/best-product1.png'}" height="150px" width="75px"
+               onerror="this.src='img/best-product1.png'">
+        </span>
+        <div class="vita">
+          <span class="med">
+            <p class="sup">${p.category || ''}</p>
+            <p class="rating"><span class="star">&#9733;</span> ${p.rating || 4.8}/5</p>
+          </span>
+          <h5>${p.name}</h5>
+          <span class="rate">
+            <p class="crr" style="cursor:pointer;" onclick="PharmezCart.addItem({name: '${p.name.replace(/'/g, '\\' ')}', price: ${p.price || 0}, imageUrl: '${p.imageUrl || 'img/best-product1.png'}', category: '${p.category || 'Medicine'}')">Add to cart</p>
+            <p class="price"><b>$${(p.price || 0).toFixed(2)}</b></p>
+          </span>
+        </div>
+      </div>`).join('');
+    document.getElementById('shopResultCount').textContent =
+      `Showing 1–${products.length} of ${products.length} results`;
+  }
+
+  window.sortShopProducts = function() {
+    const val = document.getElementById('shopSort').value;
+    let sorted = [...shopProducts];
+    if (val === 'price-asc')  sorted.sort((a,b) => a.price - b.price);
+    if (val === 'price-desc') sorted.sort((a,b) => b.price - a.price);
+    if (val === 'rating')     sorted.sort((a,b) => b.rating - a.rating);
+    renderShopProducts(sorted);
+  };
+
+  function staticFallbackCards() {
+    const items = [
+      {img:'best-product1.png',cat:'Vitamin',name:'ImmunoBoost',price:'$63.00'},
+      {img:'best-product2.png',cat:'Herbal',name:'MetaboTrim',price:'$87.00'},
+      {img:'best-product3.png',cat:'Cream',name:'DermaGlow',price:'$55.00'},
+      {img:'best-product4.png',cat:'Syrup',name:'CoughRelief Max',price:'$42.00'},
+      {img:'best-product5.png',cat:'Vitamin',name:'NutriCore Essentials',price:'$12.00'},
+      {img:'best-product6.png',cat:'Herbal',name:'Slimvia Burn',price:'$26.00'},
+      {img:'best-product7.png',cat:'Cream',name:'AcneShield Gel',price:'$82.00'},
+      {img:'best-product8.png',cat:'Tablet',name:'FluAway Tabs',price:'$36.00'},
+      {img:'product1.png',cat:'Supplement',name:'VitalEase Multivitamins',price:'$63.00'}
+    ];
+    return items.map(i => `
+      <div class="best1">
+        <span class="heart11"><span class="heart12">&#9825;</span></span>
+        <span class="imgh"><img src="img/${i.img}" height="150px" width="75px"></span>
+        <div class="vita">
+          <span class="med">
+            <p class="sup">${i.cat}</p>
+            <p class="rating"><span class="star">&#9733;</span> 4.8/5</p>
+          </span>
+          <h5>${i.name}</h5>
+          <span class="rate">
+            <p class="crr" style="cursor:pointer;" onclick="PharmezCart.addItem({name: '${i.name}', price: parseFloat('${i.price}'.replace('$','')), imageUrl: 'img/${i.img}', category: '${i.cat}'})">Add to cart</p>
+            <p class="price"><b>${i.price}</b></p>
+          </span>
+        </div>
+      </div>`).join('');
+  }
+
+  loadShopProducts();
+})();
+</script>
+
+
+
+<section class="footer1">
+  <div>
+  <div class="footer">
+    <span>
+    <span class="log">
+      <img src="img/footer-icon.png" height="100">
+      <h1>Pharmez.</h1>
+    </span class="tos">
+      <h3 >Subscribe to Our Newsletter:</h3>
+      <button>Enter Email Address </button>
+      <span class="snx"><i class="fa-solid fa-paper-plane"></i></span>
+    </span>
+
+<span class="footer-col">
+    <h3>Navigation</h3>
+    <ul class="nav-list">
+      <li><i class="fa-solid fa-arrow-right"></i> Home</li>
+      <li><i class="fa-solid fa-arrow-right"></i> About</li>
+      <li><i class="fa-solid fa-arrow-right"></i> Shop</li>
+      <li><i class="fa-solid fa-arrow-right"></i> Team</li>
+      <li><i class="fa-solid fa-arrow-right"></i> Blog</li>
+    </ul>
+  </span>
+
+  
+  <span class="footer-col">
+    <h3>Contact Info</h3>
+    <ul class="contact-list">
+      <li><i class="fa-solid fa-phone"></i> +61 3 8376 6284</li>
+      <li><i class="fa-solid fa-envelope"></i> info@pharmez.com</li>
+      <li><i class="fa-solid fa-location-dot"></i> 21 King Street Melbourne, 3000, Australia</li>
+      <li><i class="fa-solid fa-clock"></i> Mon - Sat: 9:00 am to 6:00 pm</li>
+    </ul>
+  </span>
+
+  <span class="social-icons">
+  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+</span>
+<span class="scroll-top">
+<i class="fa-solid fa-arrow-up"></i>
+</span>
+
+</div>
+<span  class="righ" >
+<span class="cop">
+  <p>Copyright © 2025 pharmez. All Rights Reserved.</p>
+  <img src="img/payment-cards.png" height="18"></span>
+</span>
+
+
+
+</div>
+
+</section>
+</div>
+</body>
+</html>

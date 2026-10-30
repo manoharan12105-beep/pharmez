@@ -1,0 +1,84 @@
+body {
+    font-family: "Archivo", sans-serif;
+}
+.bli{
+    display :flex;
+    list-style: none;
+    gap:50px;
+    align-content: center;
+    justify-content: center;
+    margin:40px 40px;
+    color: #000000;
+}
+.blog1{
+    text-decoration: none;
+     display: flex;
+      
+}
+
+.bcon{
+    background-color: white;
+ box-shadow:2px 2px 5px rgba(0,0,0,0.3);
+    margin-top: -15px;
+    margin-left: 52px; 
+     margin-bottom :20px; 
+     padding: 25px;
+     padding-top: 40px;
+     /* margin-right: -15px; */
+      border-radius: 0 0 15px 15px;
+ } 
+.bcon i{
+    color: #5c45bf;
+   padding-left:2px ;
+     font-size: 11px;
+
+}
+.all1 img{
+    margin-left: 50px;
+    width: 400px;
+    border-radius: 15px 15px 0px 0px; 
+}
+.all img{
+    margin-left: 50px;
+    width: 400px;
+    border-radius: 15px 15px 0px 0px; 
+}
+
+.blog2{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.all1{
+    margin-left: 230px;
+}
+.all{
+    margin-right: 280px;
+}
+.ic{
+    font-size: 11px;
+    margin-left: 5px;
+    margin-right: 7px;
+    padding: 0%;
+    color: #4e4e4e;
+}
+.bcon h4 {
+        font-size: 20px;
+        line-height: 22px;
+        margin-top: 13px;
+    }
+.bcon p{
+    font-size: 13px;
+    line-height: 20px;
+    color: #4e4e4e;
+    margin-top:-18px ;
+} 
+.pr{
+    color: #5c45bf;
+     position: relative;
+    font-weight: 600;
+    font-size: 13px;
+
+}
+
